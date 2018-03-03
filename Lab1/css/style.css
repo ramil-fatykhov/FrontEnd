@@ -8,9 +8,8 @@
 
 .main_container
 {
-    width: 100%;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
 }
 
 .main_image
@@ -33,11 +32,11 @@
 
 .author_name
 {
+	margin: -16px 0 0 0;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     color: rgb(51, 51, 51);
     font-weight: bold;
-    /*line-height: 2.625;*/
     text-align: left;
 }
 
@@ -55,7 +54,7 @@
 
 .image_block
 {
-    margin: 91px 0 50px 29px;
+    margin: 91px 0 45px 29px;
 }
 
 .preferences_block
@@ -64,7 +63,7 @@
 }
 .quote_block
 {
-    margin: 100px 20px 133px 70px;
+    margin: 133px 20px 115px 70px;
 }
 
 .info_block
@@ -72,30 +71,40 @@
     margin-left: 9px;
 }
 
-.preferences_title_hobby
+.preferences_title
 {
-    margin-bottom: -9px;
+    
     font-size: 24px;
     font-family: "Open Sans", sans-serif;
     color: rgb(21, 169, 140);
-    font-weight: bold;
+    font-weight: 600;
     line-height: 1.333;
     text-align: left;
 }
 
-.preferences_title_films
+.preferences_title.hobby
+{
+	margin-bottom: -4px;
+}
+
+.preferences_title.films
 {
     margin: 39px 0 2px 0;
-    font-size: 24px;
-    font-family: "Open Sans", sans-serif;
-    color: rgb(21, 169, 140);
-    font-weight: bold;
-    line-height: 1.333;
-    text-align: left;
 }
 
-.preferences_text
+.preferences_text_hobby
 {
+    font-size: 19px;
+    font-family: "Georgia";
+    color: rgb(85, 85, 85);
+    line-height: 1.895;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.preferences_text_films
+{
+	margin: 16px 0 0 3px;
     font-size: 19px;
     font-family: "Georgia";
     color: rgb(85, 85, 85);
@@ -132,9 +141,9 @@
 
 .hobby_title
 {
-    margin: 47px 0 27px 0;
+    margin: 47px 0 27px -2px;
     font-size: 36px;
-    font-family: "OpenSans";
+    font-family: "Open Sans";
     color: rgb(51, 51, 51);
     line-height: 1.167;
     text-align: left;
@@ -143,6 +152,7 @@
 .hobby_text
 {
     margin-top: -13px;
+	margin-bottom: 42px;
     font-size: 19px;
     font-family: "Georgia";
     color: rgb(85, 85, 85);
@@ -152,6 +162,17 @@
 
 .link_text
 {
+	text-decoration: none;
+    font-size: 19px;
+    font-family: "Georgia";
+    color: rgb(21, 169, 139);
+    line-height: 1.684;
+    text-align: left;
+}
+
+.arrow
+{
+	text-decoration: none;
     font-size: 19px;
     font-family: "Georgia";
     color: rgb(21, 169, 139);
@@ -162,7 +183,21 @@
 .quotes_image
 {
     position: relative;
-    margin: 0 0 -42px -67px;
+    margin: 0 0 -42px -56px;
 
 }
 
+.link_text_decoration
+{
+	text-decoration: underline;
+	font-size: 19px;
+    font-family: "Georgia";
+    color: rgb(21, 169, 139);
+    line-height: 1.684;
+    text-align: left;
+}
+
+.clear
+{
+	clear: both;
+}
