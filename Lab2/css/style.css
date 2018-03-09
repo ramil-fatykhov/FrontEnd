@@ -339,6 +339,16 @@
     line-height: 1.684;
 }
 
+.all_films_button:hover
+{
+    background: #44a9a1;
+}
+
+.all_films_button:active
+{
+    background: #15a98c;
+}
+
 .footer
 {
     text-align: center;
