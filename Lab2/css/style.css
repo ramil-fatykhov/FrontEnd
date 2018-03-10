@@ -250,7 +250,7 @@
 
 .about_me_picture
 {
-    margin-right: 3px;
+    margin-right: 4px;
 }
 
 .hobby_picture
@@ -265,7 +265,7 @@
 
 .menu_button.hobby_button
 {
-    margin-left: -4px;
+    margin-left: 1px;
     padding: 14px 22px;
 }
 
@@ -279,6 +279,7 @@
 {
     width: 1200px;
     margin: 0 auto;
+    font-size: 0;
 }
 
 .films_title
@@ -287,7 +288,7 @@
     font-family: "Open Sans";
     color: rgb(51, 51, 51);
     text-align: left;
-    margin: 88px 0 30px 9px;
+    margin: 88px 0 30px 0;
     font-weight: 400;
 }
 
@@ -296,7 +297,7 @@
     vertical-align: top;
     display: inline-block;
     width: 285px;
-    margin: 7px 5px 60px 7px;
+    margin: 7px 20px 60px 0;
 }
 
 .film_picture
@@ -313,6 +314,11 @@
     font-family: "Open Sans";
     color: rgb(51, 51, 51);
     font-weight: bold;
+}
+
+.right_block
+{
+    margin: 7px 0 60px 0;
 }
 
 .film_text
