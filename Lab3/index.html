@@ -186,13 +186,16 @@
         </select>
       </div>
       <div class="form_placeholder_gender">
-        <label for="gender_male" class="form_subtitle_text">Ваш пол</label>
+        <span class="form_subtitle_text">Ваш пол</span>
         <label for="gender_female" class="form_subtitle_text"></label>
         <div class="gender_buttons">
-          <input id="gender_male" class="gender_button" type="radio" name="gender_male" value="male" checked><span
-                class="gender_text">Мужской</span>
-          <input id="gender_female" class="gender_button" type="radio" name="gender_male" value="female"><span
-                class="gender_text">Женский</span>
+          <label for="gender_male"><input id="gender_male" class="gender_button" type="radio"
+                                          name="gender_male" value="male" checked><span
+                  class="gender_text">Мужской</span></label>
+          <label for="gender_female" class="form_subtitle_text"><input id="gender_female" class="gender_button"
+                                                                       type="radio" name="gender_male"
+                                                                       value="female"><span
+                  class="gender_text">Женский</span></label>
         </div>
       </div>
       <div class="form_placeholder_message">
