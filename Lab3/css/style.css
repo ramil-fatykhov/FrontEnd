@@ -404,13 +404,13 @@
 
 .form_elements
 {
-    width: 450px;
+    width: 525px;
     margin: 0 auto;
 }
 
 .form_placeholder
 {
-    margin: 0 0 22px -37px;
+    margin-bottom: 22px;
 }
 
 .form_subtitle_text
@@ -432,7 +432,7 @@
     width: 100%;
     margin-top: 4px;
     display: block;
-    padding: 7px 25px;
+    padding: 7px 6px;
     border: 2px solid #c9c9c9;
     border-radius: .25rem;
     font-size: 18px;
@@ -453,19 +453,11 @@
     border: 2px solid #15a98c;
 }
 
-.select_arrow
-{
-    margin: 20px 0 0 494px;
-    position: absolute;
-    width: 28px;
-    height: 28px;
-    background: url('../images/arrow_down.png') right center transparent no-repeat;
-    z-index: 1;
-    pointer-events: none;
-}
-
 .user_country
 {
+    background: url('../images/arrow_down.png') right no-repeat;
+    background-position: 97% 50%;
+    cursor: pointer;
     -webkit-appearance: none;
     width: 540px;
     margin-top: 6px;
@@ -493,7 +485,7 @@
 
 .form_placeholder_gender
 {
-    margin: 40px 0 36px -37px;
+    margin: 40px 0 36px 0;
 }
 
 .gender_buttons
@@ -503,7 +495,13 @@
 
 .gender_button
 {
+    cursor: pointer;
+}
+
+.gender_button_text
+{
     margin-top: 4px;
+    cursor: pointer;
     display: inline-block;
 }
 
@@ -521,7 +519,7 @@
     width: 100%;
     margin-top: 4px;
     display: block;
-    padding: 7px 25px 74px 25px;
+    padding: 7px 6px 74px 6px;
     border: 2px solid #c9c9c9;
     border-radius: .25rem;
     font-size: 18px;
@@ -547,7 +545,6 @@
 .send_button
 {
     border-radius: 5px;
-    margin: 0 0 0 -36px;
     padding: 9px 62px;
     color: #f5f5f5;
     text-decoration: none;
@@ -556,6 +553,7 @@
     font-size: 19px;
     font-family: "Georgia";
     line-height: 1.684;
+    cursor: pointer;
 }
 
 .send_button:hover
@@ -570,5 +568,5 @@
 
 .form_placeholder_message
 {
-    margin: 0 0 51px -37px;
+    margin: 0 0 51px 0;
 }

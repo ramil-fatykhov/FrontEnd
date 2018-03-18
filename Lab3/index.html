@@ -175,7 +175,6 @@
       </div>
       <div class="form_placeholder">
         <label for="country" class="form_subtitle_text">Откуда вы?</label>
-        <div class="select_arrow"></div>
         <select id="country" name="user_country" class="user_country" data-placeholder="Выберите октуда вы" size="1">
           <option value="rus">Россия</option>
           <option value="bel">Беларусь</option>
@@ -187,14 +186,13 @@
       </div>
       <div class="form_placeholder_gender">
         <span class="form_subtitle_text">Ваш пол</span>
-        <label for="gender_female" class="form_subtitle_text"></label>
         <div class="gender_buttons">
-          <label for="gender_male"><input id="gender_male" class="gender_button" type="radio"
-                                          name="gender_male" value="male" checked><span
+          <label for="gender_male" class="gender_button"><input id="gender_male" class="gender_button_text" type="radio"
+                                                                name="gender_male" value="male" checked><span
                   class="gender_text">Мужской</span></label>
-          <label for="gender_female" class="form_subtitle_text"><input id="gender_female" class="gender_button"
-                                                                       type="radio" name="gender_male"
-                                                                       value="female"><span
+          <label for="gender_female" class="gender_button"><input id="gender_female" class="gender_button_text"
+                                                                  type="radio" name="gender_male"
+                                                                  value="female"><span
                   class="gender_text">Женский</span></label>
         </div>
       </div>
@@ -202,7 +200,7 @@
         <label for="message" class="form_subtitle_text">Ваше сообщение <span class="required_field">*</span></label>
         <textarea id="message" class="message_field" name="user_message" required="required"></textarea>
       </div>
-      <button type="submit" value="Отправить" class="send_button">Отправить</button>
+      <button type="submit" value="Send" class="send_button">Отправить</button>
     </form>
   </div>
 </div>
