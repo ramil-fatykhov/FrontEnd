@@ -1,0 +1,51 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.left_part
+{
+    margin: 44px 0 0 500px;
+    float: left;
+}
+
+.right_part
+{
+    float: left;
+}
+
+.input_field
+{
+    display: inline-block;
+    text-align: left;
+}
+
+.output_field
+{
+    display: block;
+    text-align: left;
+}
+
+.button
+{
+    float: left;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 40px 20px;
+    transition: .5s;
+}
+
+.button:hover
+{
+    background: darkgrey;
+}
