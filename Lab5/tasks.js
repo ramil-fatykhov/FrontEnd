@@ -17,7 +17,7 @@ function getInputValue() {
 }
 
 function getLastCharacter() {
-    var cycleSymbols = function (string) {
+    var printLastSymbol = function (string) {
         var stringLength = string.length;
 
         for (var i in string) {
@@ -27,23 +27,22 @@ function getLastCharacter() {
         }
     };
 
-    // var stringLengthMethod = function (string) {
-    //     var stringLength = string.length;
-    //     return string[stringLength - 1];
-    // };
+    var stringLengthMethod = function (string) {
+        var stringLength = string.length;
+        return string[stringLength - 1];
+    };
 
     var lastSymbol = function (string) {
-        return cycleSymbols(string);
+        return printLastSymbol(string);
         // return stringLengthMethod(string);
     };
 
     var input = getInputValue();
-
     output_field.innerHTML = output_template + lastSymbol(input);
 }
 
 function withoutLastCharacter() {
-    var cycleSymbols = function (string) {
+    var printWithoutLast = function (string) {
         var withoutLastString = string[0];
         var stringLength = string.length;
 
@@ -54,13 +53,13 @@ function withoutLastCharacter() {
         return withoutLastString;
     };
 
-    // var substringMethod = function (string) {
-    //     var stringLength = string.length;
-    //     return string.substr(0, stringLength - 1)
-    // };
+    var substringMethod = function (string) {
+        var stringLength = string.length;
+        return string.substr(0, stringLength - 1)
+    };
 
     var getWithoutLast = function (string) {
-        return cycleSymbols(string);
+        return printWithoutLast(string);
         //return substringMethod(string)
     };
 
@@ -97,8 +96,33 @@ function formatting() {
         return string.trim().replace(/\s+/g, ' ');
     };
 
+    var stateMachine = function (string) {
+        var STATE_BEGIN = 'Begin';
+        var STATE_SPACE = 'Space';
+        var STATE_WORD = 'Word';
+        var state = STATE_BEGIN;
+        var formattedString = '';
+
+        for (var i in string) {
+            if (string[i] !== ' ') {
+                if (state === STATE_SPACE) {
+                    formattedString += (' ' + string[i]);
+                    state = STATE_WORD;
+                } else {
+                    formattedString += string[i];
+                    state = STATE_WORD;
+                }
+            } else if (state !== STATE_BEGIN) {
+                state = STATE_SPACE;
+            }
+        }
+
+        return formattedString;
+    };
+
     var formatString = function (string) {
-        return spaceSorting(string);
+        //return spaceSorting(string);
+        return stateMachine(string);
     };
 
     var input = getInputValue();
