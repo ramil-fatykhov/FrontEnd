@@ -99,6 +99,32 @@
     }
 }
 
+@media screen and (max-width: 957px)
+{
+    .films_container
+    {
+        width: 90%;
+    }
+
+    .films_block
+    {
+        width: 700px;
+        max-width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .film_picture
+    {
+        width: 700px;
+    }
+
+    .film_text
+    {
+        max-width: 700px;
+    }
+}
+
 @media screen and (max-width: 820px)
 {
     .form_separator
