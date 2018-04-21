@@ -44,6 +44,13 @@
 
 @media screen and (max-width: 1130px)
 {
+    .preferences_block
+    {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
     .left_part
     {
         float: none;
@@ -54,10 +61,10 @@
 
     .right_part
     {
+        width: 780px;
         max-width: 100%;
     }
 
-    .
     .image_block
     {
         display: inline-block;
@@ -66,13 +73,15 @@
 
     .preferences_subblock_one
     {
-        float: left;
-        margin-right: 62px;
+        float: none;
+        display: inline-block;
+        margin-right: 80px;
     }
 
     .preferences_subblock_two
     {
-        float: left;
+        float: none;
+        display: inline-block;
     }
 
     .preferences_text_films
@@ -131,10 +140,9 @@
     {
         display: none;
     }
-
 }
 
-@media screen and (max-width: 585px)
+@media screen and (max-width: 591px)
 {
     .menu
     {
@@ -166,6 +174,21 @@
     .form_title_text
     {
         font-size: 29px;
+    }
+
+    .preferences_block
+    {
+        text-align: left;
+    }
+
+    .preferences_subblock_one
+    {
+        margin: 0 auto;
+    }
+
+    .preferences_subblock_two
+    {
+
     }
 }
 
