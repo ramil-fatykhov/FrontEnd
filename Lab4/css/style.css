@@ -368,16 +368,18 @@
 {
     text-align: center;
     padding: 18px 0;
-    margin: 50px 5px 0 0;
+    margin: 50px 0 0 0;
     background: #f9f9f9;
 }
 
 .footer_text
 {
+    display: inline-block;
     font-size: 16px;
     font-family: "Georgia";
     color: rgb(85, 85, 85);
     line-height: 2;
+    width: 95%;
 }
 
 .form

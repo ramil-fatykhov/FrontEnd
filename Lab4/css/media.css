@@ -183,12 +183,12 @@
 
     .preferences_subblock_one
     {
-        margin: 0 auto;
+        float: left
     }
 
     .preferences_subblock_two
     {
-
+        float: left;
     }
 }
 
