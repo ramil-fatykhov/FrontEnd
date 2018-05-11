@@ -1,0 +1,270 @@
+@media screen and (max-width: 1300px)
+{
+    .films_container
+    {
+        text-align: center;
+    }
+
+    .films_title
+    {
+        text-align: center;
+    }
+
+    .film_picture
+    {
+        max-width: 100%;
+        width: 450px;
+        height: auto;
+    }
+
+    .films_title
+    {
+        max-width: 100%;
+    }
+
+    .film_text
+    {
+        max-width: 450px;
+    }
+
+    .films_block,
+    .right_block
+    {
+        width: 450px;
+        max-width: 50%;
+        margin: 7px 10px 60px 10px;
+    }
+
+    .all_films_button
+    {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1130px)
+{
+    .preferences_block
+    {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .left_part
+    {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .right_part
+    {
+        max-width: 780px;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .image_block
+    {
+        display: inline-block;
+        margin-bottom: 45px;
+    }
+
+    .preferences_subblock_one
+    {
+        float: none;
+        display: inline-block;
+        margin-right: 80px;
+    }
+
+    .preferences_subblock_two
+    {
+        float: none;
+        display: inline-block;
+    }
+
+    .preferences_text_films
+    {
+        margin: 13px 0 41px 0;
+
+    }
+
+    .info_block
+    {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .quote_block
+    {
+        display: none;
+    }
+
+    .quote_text,
+    .author_name
+    {
+        color:#333;
+    }
+}
+
+@media screen and (max-width: 957px)
+{
+    .films_container
+    {
+        width: 90%;
+    }
+
+    .films_block
+    {
+        width: 700px;
+        max-width: 90%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .film_picture
+    {
+        width: 700px;
+    }
+
+    .film_text
+    {
+        max-width: 700px;
+    }
+}
+
+@media screen and (max-width: 820px)
+{
+    .form_separator
+    {
+        display: none;
+    }
+
+    .modal_window
+    {
+        width: 484px;
+    }
+
+    .close
+    {
+        margin-left: 430px;
+    }
+
+    .modal_window_title
+    {
+        font-size: 31px;
+        width: 400px;
+        margin-left: 16px;
+    }
+}
+
+@media screen and (max-width: 591px)
+{
+    .menu
+    {
+        position: absolute;
+        display: none;
+        background: #fff;
+    }
+
+    .hamburger_button
+    {
+        display: inline-block;
+    }
+
+    .menu_unit
+    {
+        float: none;
+    }
+
+    .name_text
+    {
+        font-size: 38px;
+    }
+
+    .films_title
+    {
+        font-size: 29px;
+    }
+
+    .form_title_text
+    {
+        font-size: 29px;
+    }
+
+    .preferences_block
+    {
+        text-align: left;
+    }
+
+    .preferences_subblock_one
+    {
+        float: none
+    }
+
+    .preferences_subblock_two
+    {
+        float: none;
+    }
+
+    .modal_window
+    {
+        width: 360px;
+    }
+
+    .close
+    {
+        margin-left: 308px;
+    }
+
+    .modal_window_title
+    {
+        font-size: 28px;
+        width: 300px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 382px)
+{
+
+    .name_text
+    {
+        font-size: 26px;
+    }
+
+    .hobby_title
+    {
+        font-size: 28px;
+    }
+
+    .preferences_title
+    {
+        font-size: 21px;
+    }
+
+    .modal_window
+    {
+        width: 280px;
+    }
+
+    .close
+    {
+        margin-left: 240px;
+    }
+
+    .modal_window_title
+    {
+        width: 250px;
+    }
+
+    .gender_text
+    {
+        margin: 0 17px 0 9px;;
+    }
+}
+
+
+
