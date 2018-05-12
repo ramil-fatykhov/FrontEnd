@@ -158,6 +158,11 @@
         width: 400px;
         margin-left: 16px;
     }
+
+    .user_country
+    {
+        width: 96.5%;
+    }
 }
 
 @media screen and (max-width: 591px)

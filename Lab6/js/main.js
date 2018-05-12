@@ -58,11 +58,11 @@ function requiredField() {
     var email = getById('email');
     var blank = '';
     event.preventDefault();
-    if(name.value == blank) {
-        name.style.borderColor = '#ee0707';
+    if(name.value === blank) {
+        document.getElementsByClassName('required_input')[0].style.borderColor = "#ee0707";
     }
 
-    if(email.value == blank) {
-        email.style.borderColor = '#ee0707';
+    if(email.value === blank) {
+        document.getElementsByClassName('required_input')[0].style.borderColor = "#ee0707";
     }
 }

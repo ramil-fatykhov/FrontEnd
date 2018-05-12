@@ -469,11 +469,6 @@
     text-align: center;
 }
 
-.required_field
-{
-    color: #f34949;
-}
-
 .required_input
 {
     padding-left: 3%;
@@ -490,6 +485,11 @@
     max-width: 515px;
     width: 92.5%;
     height: 50px;
+}
+
+.required_input.active
+{
+    border-color: #ee0707;
 }
 
 .required_input:hover
