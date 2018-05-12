@@ -165,6 +165,7 @@
 
 .link_text
 {
+    cursor: pointer;
     text-decoration: none;
     font-size: 19px;
     font-family: "Georgia", sans-serif;
@@ -487,14 +488,14 @@
     height: 50px;
 }
 
-.required_input.active
-{
-    border-color: #ee0707;
-}
-
 .required_input:hover
 {
     border: 2px solid #a6a6a6;
+}
+
+.required_input.active
+{
+    border-color: #ee0707;
 }
 
 .required_input:focus

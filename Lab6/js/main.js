@@ -4,7 +4,7 @@ function onWindowLoaded() {
     tryToListen('write_me', 'click', openWindow);
     tryToListen('close', 'click', closeWindow);
     tryToListen('overlay', 'click', closeWindow);
-    tryToListen('submit', 'click', requiredField);
+    tryToListen('sendMessageForm', 'submit', requiredField);
     tryToListen('name', 'focus', changeFocus);
     tryToListen('email', 'focus', changeFocus);
     tryToListen('button_movies', 'click', showMovies);
@@ -50,19 +50,21 @@ function showMovies() {
 }
 
 function changeFocus() {
-    this.style.borderColor = null;
+    this.classList.remove('active');
 }
 
 function requiredField() {
-    var name = getById('name');
-    var email = getById('email');
-    var blank = '';
-    event.preventDefault();
-    if(name.value === blank) {
-        document.getElementsByClassName('required_input')[0].style.borderColor = "#ee0707";
+    var hasEmptyFields = false;
+    var requiredFields = document.getElementsByClassName('required_input');
+    for (var i = 0; i < requiredFields.length; i++) {
+        if (requiredFields[i].value === '')
+        {
+            hasEmptyFields = true;
+            requiredFields[i].classList.add('active');
+        }
     }
 
-    if(email.value === blank) {
-        document.getElementsByClassName('required_input')[0].style.borderColor = "#ee0707";
+    if (hasEmptyFields === true) {
+        event.preventDefault();
     }
 }

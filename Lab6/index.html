@@ -103,7 +103,7 @@
           сюжеты
           произведений,
           написанных давным-давно. </p>
-        <a href="#" class="link_text" id="write_me"><span class="link_text_decoration">Напиши мне</span><span
+        <a class="link_text" id="write_me"><span class="link_text_decoration">Напиши мне</span><span
                 class="arrow"> →</span></a>
       </div>
     </div>
@@ -219,14 +219,14 @@
     <p class="modal_window_title">Напиши мне</p>
   </div>
   <div class="form_elements">
-    <form name="form" method="post">
+    <form name="form" method="post" id="sendMessageForm" action="#">
       <div class="form_placeholder">
         <label for="name" class="form_subtitle_text">Ваше имя <span class="required_field">*</span></label>
-        <input id="name" class="required_input" type="text" name="user_name">
+        <input id="name" class="required_input name" type="text" name="user_name">
       </div>
       <div class="form_placeholder">
         <label for="email" class="form_subtitle_text">Ваш email <span class="required_field">*</span></label>
-        <input id="email" class="required_input" type="text" name="user_email">
+        <input id="email" class="required_input mail" type="text" name="user_email">
       </div>
       <div class="form_placeholder">
         <label for="country" class="form_subtitle_text">Откуда вы?</label>

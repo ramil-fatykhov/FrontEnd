@@ -144,12 +144,12 @@
 
     .modal_window
     {
-        width: 484px;
+        width: 522px;
     }
 
     .close
     {
-        margin-left: 430px;
+        margin-left: 464px;
     }
 
     .modal_window_title
@@ -216,12 +216,13 @@
 
     .modal_window
     {
-        width: 360px;
+        width: 90%;
     }
 
     .close
     {
-        margin-left: 308px;
+        float: right;
+        margin-right: 30px;
     }
 
     .modal_window_title
@@ -250,24 +251,10 @@
         font-size: 21px;
     }
 
-    .modal_window
-    {
-        width: 280px;
-    }
-
-    .close
-    {
-        margin-left: 240px;
-    }
-
-    .modal_window_title
-    {
-        width: 250px;
-    }
 
     .gender_text
     {
-        margin: 0 17px 0 9px;;
+        margin: 0 14px 0 9px;;
     }
 }
 
