@@ -1,0 +1,116 @@
+@media screen and (min-width: 841px) and (max-width: 1180px)
+{
+    .hero_title
+    {
+        font-size: 64px;
+    }
+    
+    .hero_description
+    {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1120px)
+{
+    .mega_menu_list_link
+    {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1023px)
+{
+    .footer_link_copyright,
+    .footer_link_container
+    {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 630px) and (max-width: 1030px)
+{
+    .latest_works_pagination
+    {
+        width: 75px;
+    }
+}
+
+@media screen and (max-width: 850px)
+{
+    .hero_title
+    {
+        font-size: 40px;
+        line-height: inherit;
+    }
+    
+    .hero_description
+    {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    .latest_works_unit_description_link
+    {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 640px)
+{
+    .latest_works_title,
+    .get_in_touch_title,
+    .about_us_title
+    {
+        font-size: 27px;
+        line-height: inherit;
+        margin-top: 80px;
+    }
+
+    .latest_works_pagination
+    {
+        width: 100px;
+        padding-bottom: 120px;
+    }
+
+    .get_in_touch_description,
+    .about_us_description,
+    .latest_works_description
+    {
+        font-size: 18px;
+    }
+    
+    .get_in_touch_button
+    {
+        margin-bottom: 80px;
+    }
+    
+    .hero_title
+    {
+        margin-top: 150px;
+    }
+    
+    .get_started_now_button
+    {
+        width: 245px;
+        margin-bottom: 200px;
+    }
+
+    .about_us_colomns
+    {
+        margin-bottom: 80px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 430px)
+{
+    .carousel_name,
+    .carousel_identity
+    {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
